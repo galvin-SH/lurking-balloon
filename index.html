@@ -21,24 +21,81 @@
 <body class="bg-color-2">
     <div id="main" class="container bg-color-1"></div>
     <div class="row vh-100">
-        <section class="col-4 bg-color-2 m-3">
-            <div class="bg-color-1">
+        <section class="col-4 bg-color-1 m-3 border rounded border-3 border-dark">
+            <div class="bg-color-1 p-3">
                 <label for="citySearch" class="form-label fs-2">Search by city name</label>
                 <input type="text" id="citySearch" class="form-control">
-                <button type="button" class="bg-color-3 btn-lg">SEARCH</button>
+                <button type="button" class="bg-color-3 btn-lg m-2">SEARCH</button>
             </div>
-            <div class="bg-color-1 vh-100 d-flex flex-column">City List Element
-                <button type="button" class="bg-color-3 btn-lg">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg">CITY</button>
-
+            <div class="bg-color-1 vh-100 d-flex flex-column text-center fs-2">Past Searches
+                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
+                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
+                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
+                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
             </div>
         </section>
-        <section class="col-7 text-center bg-color-2 m-3">
-            <div>Current Conditions Element</div>
-            <div>5-Day Forecast Element</div>
+        <section class="col-7 bg-color-1 m-3 border rounded border-3 border-dark">
+            <div class="bg-color-1 p-3 fs-2">
+                Current Conditions
+                <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                    <div class="card-body">
+                        <h4 class="card-title border-color-1">Date</h4>
+                        <h4 class="card-heading">Icon</h4>
+                        <h4 class="card-heading">Temp</h4>
+                        <h4 class="card-heading">Windspd</h4>
+                        <h4 class="card-heading">Humidity</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-color-1 vh-100 fs-2">5-Day Forecast
+                <div id="forecastContainer" class="d-flex flex-row">
+                    <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Date</h4>
+                            <h4 class="card-heading">Icon</h4>
+                            <h4 class="card-heading">Temp</h4>
+                            <h4 class="card-heading">Windspd</h4>
+                            <h4 class="card-heading">Humidity</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Date</h4>
+                            <h4 class="card-heading">Icon</h4>
+                            <h4 class="card-heading">Temp</h4>
+                            <h4 class="card-heading">Windspd</h4>
+                            <h4 class="card-heading">Humidity</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Date</h4>
+                            <h4 class="card-heading">Icon</h4>
+                            <h4 class="card-heading">Temp</h4>
+                            <h4 class="card-heading">Windspd</h4>
+                            <h4 class="card-heading">Humidity</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Date</h4>
+                            <h4 class="card-heading">Icon</h4>
+                            <h4 class="card-heading">Temp</h4>
+                            <h4 class="card-heading">Windspd</h4>
+                            <h4 class="card-heading">Humidity</h4>
+                        </div>
+                    </div>
+                    <div class="card bg-color-2 border-3 m-2 border-color-1 flex-fill">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Date</h4>
+                            <h4 class="card-heading">Icon</h4>
+                            <h4 class="card-heading">Temp</h4>
+                            <h4 class="card-heading">Windspd</h4>
+                            <h4 class="card-heading">Humidity</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
