@@ -22,16 +22,13 @@
     <div id="main" class="container bg-color-1"></div>
     <div class="row vh-100">
         <section class="col-4 bg-color-1 m-3 border rounded border-3 border-dark">
-            <div class="bg-color-1 p-3">
-                <label for="citySearch" class="form-label fs-2">Search by city name</label>
-                <input type="text" id="citySearch" class="form-control">
-                <button type="button" class="bg-color-3 btn-lg m-2">SEARCH</button>
-            </div>
-            <div class="bg-color-1 vh-100 d-flex flex-column text-center fs-2">Past Searches
-                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
-                <button type="button" class="bg-color-3 btn-lg m-2">CITY</button>
+            <form id="search-form" class="bg-color-1 p-3">
+                <label for="city-search" class="form-label fs-2">Search by city name</label>
+                <input type="text" id="city-search" class="form-control">
+                <button type="submit" class="bg-color-3 btn-lg m-2">SEARCH</button>
+            </form>
+            <div id="button-list" class="bg-color-1 vh-100 d-flex flex-column text-center fs-2">Past Searches
+                <!-- <button type="button" class="bg-color-3 btn-lg m-2">CITY</button> -->
             </div>
         </section>
         <section class="col-7 bg-color-1 m-3 border rounded border-3 border-dark">
