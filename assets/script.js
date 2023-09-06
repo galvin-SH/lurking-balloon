@@ -1,4 +1,4 @@
-const apiKey = config.key;
+const apiKey = "4320662bed2d2e0016d8e145d6f8425f";
 const searchFormEl = document.querySelector("#search-form");
 const inputEl = document.querySelector("#city-search");
 const buttonListEl = document.querySelector("#button-list");
